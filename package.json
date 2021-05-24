@@ -11,5 +11,10 @@
     "url": "https://github.com/simple-icons/simple-icons/issues"
   },
   "author": "Simple Icons Collaborators",
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "dependencies": {
+    "pdfkit": "^0.12.1",
+    "simple-icons": "^4.25.0",
+    "svg-to-pdfkit": "^0.1.8"
+  }
 }
