@@ -4,8 +4,6 @@ const PDFDocument = require('pdfkit');
 const SVGtoPDF = require('svg-to-pdfkit');
 const simpleIcons = require('simple-icons');
 
-const { getIconSlug } = require('./utils.js');
-
 for (const title in simpleIcons) {
   const icon = simpleIcons.Get(title);
   let doc = new PDFDocument({
