@@ -13,7 +13,7 @@
   "scripts": {
     "format": "prettier --write --single-quote .",
     "lint": "prettier --check --single-quote .",
-    "run": "node scripts/build-pdfs.js"
+    "build": "node scripts/build-pdfs.js"
   },
   "author": "Simple Icons Collaborators",
   "license": "CC0-1.0",
