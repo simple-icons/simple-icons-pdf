@@ -10,6 +10,17 @@
   "bugs": {
     "url": "https://github.com/simple-icons/simple-icons/issues"
   },
+  "scripts": {
+    "format": "prettier --write --single-quote .",
+    "lint": "prettier --check --single-quote .",
+    "build": "node scripts/build-pdfs.js"
+  },
   "author": "Simple Icons Collaborators",
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "pdfkit": "0.12.1",
+    "prettier": "2.3.0",
+    "simple-icons": "^4.25.0",
+    "svg-to-pdfkit": "0.1.8"
+  }
 }
