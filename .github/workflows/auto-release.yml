@@ -27,8 +27,6 @@ jobs:
           echo ::set-output name=NEW_VERSION::$newVersion
       - name: Regenerate icons
         run: |
-          # Delete Existing PDFs
-          npm run clean
           # Generate New PDFs
           npm run build
       - name: Commit updates
