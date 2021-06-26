@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "node scripts/build-pdfs.js",
-    "clean": "rm -rf icons",
+    "prebuild": "rm -rf icons",
     "format": "prettier --write --single-quote .",
     "lint": "prettier --check --single-quote ."
   },
