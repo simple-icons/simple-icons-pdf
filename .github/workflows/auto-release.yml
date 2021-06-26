@@ -36,6 +36,7 @@ jobs:
           # Set up git credential
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
+
           # Create a commit for the simple-icons dependency update
           git add .
           git commit -m "Update simple-icons to ${{ steps.update.outputs.NEW_VERSION }}"
@@ -44,5 +45,6 @@ jobs:
           # Set up remote using a Personal Access Token
           git remote remove origin
           git remote add origin https://${{secrets.RELEASE_TOKEN}}@github.com/simple-icons/simple-icons-pdf.git
+
           # Push updates to origin
           git push origin master
