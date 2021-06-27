@@ -11,9 +11,10 @@
     "url": "https://github.com/simple-icons/simple-icons/issues"
   },
   "scripts": {
+    "prebuild": "rm -rf icons/*",
+    "build": "node scripts/build-pdfs.js",
     "format": "prettier --write --single-quote .",
-    "lint": "prettier --check --single-quote .",
-    "build": "node scripts/build-pdfs.js"
+    "lint": "prettier --check --single-quote ."
   },
   "author": "Simple Icons Collaborators",
   "license": "CC0-1.0",
