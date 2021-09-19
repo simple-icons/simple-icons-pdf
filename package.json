@@ -11,7 +11,7 @@
     "url": "https://github.com/simple-icons/simple-icons/issues"
   },
   "scripts": {
-    "prebuild": "rm -rf icons/*",
+    "prebuild": "rimraf icons/*",
     "build": "node scripts/build-pdfs.js",
     "format": "prettier --write --single-quote .",
     "lint": "prettier --check --single-quote ."
@@ -21,6 +21,7 @@
   "devDependencies": {
     "pdfkit": "0.12.1",
     "prettier": "2.3.0",
+    "rimraf": "3.0.2",
     "simple-icons": "5.4.0",
     "svg-to-pdfkit": "0.1.8"
   }
