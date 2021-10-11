@@ -19,8 +19,8 @@
   "author": "Simple Icons Collaborators",
   "license": "CC0-1.0",
   "devDependencies": {
-    "pdfkit": "0.12.1",
-    "prettier": "2.3.0",
+    "pdfkit": "0.12.3",
+    "prettier": "2.4.1",
     "rimraf": "3.0.2",
     "simple-icons": "5.4.0",
     "svg-to-pdfkit": "0.1.8"
