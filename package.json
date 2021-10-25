@@ -13,8 +13,8 @@
   "scripts": {
     "prebuild": "rimraf icons/*",
     "build": "node scripts/build-pdfs.js",
-    "format": "prettier --write --single-quote .",
-    "lint": "prettier --check --single-quote ."
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
   },
   "author": "Simple Icons Collaborators",
   "license": "CC0-1.0",
